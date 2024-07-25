@@ -1,14 +1,15 @@
-body {
+html,body {
     font-family: 'SF Pro Display', 'Arial', sans-serif;
     height: 100vh;
     width: 100vw;
     margin: unset;
+    background-color: rgb(236,236,236);
 }
 
 .mainBody-container {
-    height: 100%;
+    height: fit-content;
     width: 100%;
-    background-color: #CFCFCF;
+    background-color: rgb(236,236,236);
     display: flex;
     flex-direction: column;
 }
@@ -33,8 +34,14 @@ body {
     justify-content: center;
 }
 
+body > .mainBody-container > .main-header {
+    position: sticky;
+    top: 0;
+    z-index: 100%;
+}
+
 .main-header > .container {
-    height: 100%;
+    height: 74px;
     width: 1200px;
     display: flex;
     align-items: center;
@@ -292,6 +299,7 @@ body {
     width: 1200px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .voucher, .new, .video, .payment-help, .load-help, .warranty {
@@ -322,7 +330,221 @@ body {
 }
 
 .main-content {
-    height: auto;
+    height: fit-content;
     width: 100%;
-    background-color: #110e0e;
+    background-color: rgb(236,236,236);
+}
+
+.content-detail {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.position {
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.home, .vga {
+    padding: 14px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.position-box-icon {
+    display: flex;
+    align-items: center;
+}
+
+.position > span {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(109,110,114);
+}
+
+.home > span {
+    color: rgb(25,130,249);
+}
+.position-box-icon > img {
+    height: 18px;
+    width: 18px;
+}
+.position-box-text {
+    margin: auto;
+    color: rgb(109,110,114);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.advertise-pic {
+    height: 266.484px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.advertise-pic > img {
+    height: 100%;
+    width: 1200px;
+    
+}
+
+.item-list {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 16px;
+    background-color: rgb(236,236,236);
+}
+
+.item-popup {
+    height: fit-content;
+    width: 1200px;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.panel {
+    width: auto;
+    height: 78px;
+    padding: 24px;
+}
+
+.top-panel {
+    display: flex;
+    gap: 5px;
+}
+
+.item-filter, .item-detail, .item-price, .vga-brand, .vga-type, .vga-vram, .vga-local-brand {
+    padding: 4px 10px;
+    height: 25px;
+    width: auto;
+    display: flex;
+    border: 1px solid #ddd;
+    justify-content: center;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.panel-box-text {
+    font-size: 13px;
+    color: #141414;
+    font-weight: 400;
+}
+
+.panel-box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-box-icon > img {
+    width: 18px;
+}
+
+.bottom-panel {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+.avarage-filter {
+    width: auto;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding-left: 5px;
+}
+
+.panel-box-text-bold {
+    font-size: 13px;
+    color: #141414;
+    font-weight: 600;
+}
+
+.avarage-filter > span {
+    margin: 2px;
+}
+
+.product {
+    width: auto;
+    height: 100%;
+    margin: 0px 10px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 6px;
+}
+
+.product-card {
+    display: table-column;
+    height: 432.391px;
+    width: 230.391px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.product-card > img {
+    margin-top: 40px;
+    width: 100%;
+    height: 230.391px;
+}
+
+.product-card > div {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 15px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 0.9em;
+}
+
+.price {
+    color: red;
+    font-size: 16px;
+}
+.setup-price {
+    display: flex;
+    margin-top: 5px;
+}
+
+.sale {
+    color: red;
+    padding: 0px 3px;
+    font-weight: normal;
+    border: 1px solid red;
+    background-color: rgb(255,237,237);
+    margin-left: 20px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+}
+
+.star {
+    color: rgb(255,138,0);
+}
+
+.comment {
+    color: #999;
+    font-size: 12px;
+    padding-left: 10px;
+    font-weight: normal;
 }
