@@ -1,0 +1,66 @@
+body {
+    font-family: 'SF Pro Display', 'Arial', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: unset;
+}
+
+.mainBody-container {
+    height: 100%;
+    width: 100%;
+    background-color: #CFCFCF;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    height: 47.7777px;
+    width: 100%;
+    background-color: rgb(200, 234, 255);
+    text-align: center;
+}
+
+.top-header > img {
+    width: 1200px;
+    margin-right: 17px;
+}
+
+.main-header {
+    height: 74px;
+    width: 100%;
+    background-color: rgb(227,0,25);
+    display: flex;
+    justify-content: center;
+}
+
+.main-header > .container {
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.container > .left-container {
+    height: 42px;
+    width: 261.2px;
+    background-color: #110e0e;
+}
+
+.container > .right-container {
+    height: 42px;
+    width: 938.8px;
+    background-color: #633b3b;
+}
+
+
+.sub-header {
+    height: 41px;
+    width: 100%;
+    background-color: #5c4746;
+}
+
+.main-content {
+    height: auto;
+    width: 100%;
+    background-color: #110e0e;
+}
