@@ -22,7 +22,6 @@ body {
 
 .top-header > img {
     width: 1200px;
-    margin-right: 17px;
 }
 
 .main-header {
@@ -30,6 +29,7 @@ body {
     width: 100%;
     background-color: rgb(227,0,25);
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
@@ -40,18 +40,243 @@ body {
     align-items: center;
 }
 
-.container > .left-container {
+.left-container {
     height: 42px;
     width: 261.2px;
-    background-color: #110e0e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.container > .right-container {
+.left-container > img {
+    height: 31.77px;
+    width: 140px;
+}
+
+.left-container > div {
+    height: 100%;
+    width: 105.2px;
+    border-radius: 4px;
+    background-color: rgb(190,21,41);
+    display: flex;
+}
+
+.menu > .box-icon {
+    height: 100%;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu > .box-icon > img {
+    height: 65%;
+    width: 23px;
+}
+
+.menu > .box-text {
+    height: auto;
+    width: auto;
+    font-size: 13px;
+    font-weight: 600;
+    padding-right: 5px;
+    margin: auto;
+    color: white;
+}
+
+.right-container {
     height: 42px;
     width: 938.8px;
-    background-color: #633b3b;
+    margin-left: 8px;
+    display: flex;
 }
 
+.search-bar {
+    height: 100%;
+    width: 415.84px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    justify-content: right;
+}
+
+.search-bar > input, input:focus {
+    height: 100%;
+    width: 415.84px;
+    color: rgb(130,130,121);
+    font-size: 16px;
+    font-weight: 400;
+    border: 0px solid;
+    outline: none;
+    padding-left: 15px;
+    background-color: transparent;
+    border-color: unset;
+}
+
+.search-bar > .box-icon {
+    height: 100%;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar > .box-icon > img {
+    height: 23.67px;
+    width: 23.67px;
+}
+
+.hotline {
+    height: 100%;
+    width: 110.88px;
+    margin-left: 8px;
+    display: flex;
+}
+
+.hotline > .box-icon {
+    height: 100%;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotline > .box-icon > img {
+    height: 24px;
+    width: 24px;
+}
+
+.hotline > .box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.showroom {
+    height: 100%;
+    width: 109.19px;
+    margin-left: 8px;
+    display: flex;
+}
+
+.showroom > .box-icon {
+    height: 100%;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showroom > .box-icon > img {
+    height: 24px;
+    width: 24px;
+}
+
+.showroom > .box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.order-tracking {
+    height: 100%;
+    width: 100.92px;
+    margin-left: 8px;
+    display: flex;
+}
+
+.order-tracking > .box-icon {
+    height: 100%;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-tracking > .box-icon > img {
+    height: 24px;
+    width: 24px;
+}
+
+.order-tracking > .box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.item-car {
+    height: 100%;
+    width: 76.05px;
+    margin-left: 8px;
+    display: flex;
+}
+
+.item-car > .box-icon {
+    height: 100%;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-car > .box-icon > img {
+    height: 24px;
+    width: 24px;
+}
+
+.item-car > .box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.login {
+    height: 100%;
+    width: 79.92px;
+    margin-left: 8px;
+    display: flex;
+    border-radius: 4px;
+    background-color: rgb(190,21,41);
+}
+
+.login > .box-icon {
+    height: 100%;
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login > .box-icon > img {
+    height: 24px;
+    width: 24px;
+}
+
+.login > .box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
 
 .sub-header {
     height: 41px;
