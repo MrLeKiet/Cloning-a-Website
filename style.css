@@ -281,7 +281,44 @@ body {
 .sub-header {
     height: 41px;
     width: 100%;
-    background-color: #5c4746;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-header > .container {
+    height: 100%;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.voucher, .new, .video, .payment-help, .load-help, .warranty {
+    padding: 10px 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header-box-icon {
+    width: 19px;
+    display: flex;
+    justify-content: center;
+}
+
+.sub-header-box-icon > img {
+    height: 19px;
+    width: 19px;
+}
+
+.sub-header-box-text {
+    height: auto;
+    width: auto;
+    margin: auto;
+    padding-left: 3px;
+    color: #141414;
+    font-size: 13px;
+    font-weight: 600;
 }
 
 .main-content {
